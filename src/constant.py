@@ -1,0 +1,17 @@
+training_data_path = '../data/eng.train'
+validation_data_path = '../data/eng.testa'
+test_data_path = '../data/eng.testb'
+BATCH_SIZE = 32
+CHAR_DIM = 32
+FILTER_SIZE = 2 
+CHAR_OUT_DIMENSION = 32
+WORD_DIM = 100
+HIDDEN_DIM = 64
+NUM_EPOCH = 25
+DROPOUT = 0.6
+LEARNING_RATE =0.001
+PRE_TRAINED_EMBEDDING_PATH = '../data/glove.6B.100d.txt'
+PRE_TRAINED_EMBEDDING = True
+NON_TRAINABLE = True
+MODEL_PATH='../save/checkpoint_epoch_9_valid_loss_1.84758333109_valid_acc_98.3269673504_valid_fscore_0.8967518448692071_.pth.tar'
+#MODEL_PATH='../save2/checkpoint_epoch_9_valid_loss_2.42320781297_valid_acc_98.1489407233_valid_fscore_0.8849520579125747_.pth.tar'
